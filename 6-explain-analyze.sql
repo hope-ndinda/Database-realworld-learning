@@ -1,0 +1,3 @@
+EXPLAIN ANALYZE SELECT * FROM census_info WHERE id = 1000;
+EXPLAIN (ANALYZE, BUFFERS) 
+SELECT * FROM census_info WHERE STNAME = 'California';
